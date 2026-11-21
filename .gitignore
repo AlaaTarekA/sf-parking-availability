@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+# Large raw downloads stay local
+data/raw/*.csv
+data/raw/*.json

@@ -1,0 +1,223 @@
+block,description,lat,lon,mapped_bays
+20095,Little Collins Street between Russell Street and Swanston Street,-37.81426019534648,144.96700294958072,8
+20202,Spring Street between Little Collins Street and Bourke Street,-37.81201924038237,144.97329344849982,14
+20497,Palmerston Street between Lygon Street and Keppel Street,-37.795927053656904,144.96717917166959,33
+20501,Keppel Street between Lygon Street and Palmerston Street,-37.79643224577519,144.96708818224153,40
+20502,Keppel Street between Cardigan Street and Swanston Street,-37.79475621043718,144.96574555173206,39
+20516,Cardigan Street between Faraday Street and Elgin Street,-37.79777242215784,144.96591843665615,59
+20518,Cardigan Street between Elgin Street and Keppel Street,-37.79638288928446,144.96617193578507,50
+20519,Cardigan Street between Keppel Street and Lytton Street,-37.79443347644915,144.96650105102054,79
+20536,Lygon Street between Elgin Street and Palmerston Street,-37.79641034115986,144.96755991694135,8
+20538,Lygon Street between Palmerston Street and Lytton Street,-37.795218836177774,144.9677618202613,14
+20540,Lygon Street between Lytton Street and Princes Street,-37.793178311889925,144.96827059246942,21
+20542,Drummond Street between Victoria Street and Queensberry Street,-37.80610145559228,144.96751433172383,55
+20544,Drummond Street between Queensberry Street and Pelham Street,-37.80394676401527,144.96792482491793,44
+20546,Drummond Street between Pelham Street and Grattan Street,-37.80198509080725,144.96821989239288,61
+20548,Drummond Street between Grattan Street and Faraday Street,-37.799912704428365,144.96861730325668,38
+20561,Rathdowne Street between Carlton Street and Faraday Street,-37.799666251186586,144.97003161801516,11
+20563,Rathdowne Street between Faraday Street and Elgin Street,-37.79843599498427,144.97026976129027,15
+20565,Rathdowne Street between Elgin Street and Palmerston Street,-37.79687147129153,144.97062227347678,22
+20569,Rathdowne Street between Pitt Street and Kay Street,-37.79533548816423,144.97085836387257,13
+20580,Canning Street between Faraday Street and Elgin Street,-37.79843659819819,144.97279785039225,22
+20583,Canning Street between Elgin Street and Palmerston Street,-37.79705934905511,144.97299480114046,17
+20585,Canning Street between Palmerston Street and Pitt Street,-37.796211759036,144.97326520478097,7
+20587,Canning Street between Pitt Street and Kay Street,-37.79560113015226,144.97326245042257,11
+20589,Canning Street between Kay Street and Neill Street,-37.79435413612707,144.97347153903877,46
+20591,Canning Street between Neill Street and Princes Street,-37.79326377765555,144.9736508602595,10
+20595,Station Street between Palmerston Street and Kay Street,-37.79604357587639,144.9742046459326,45
+20596,Barkly Street between Nicholson Street and Canning Street,-37.79861700907204,144.973750255084,64
+20597,Elgin Street between Nicholson Street and Canning Street,-37.797850832245906,144.9737403218579,22
+20616,Faraday Street between Nicholson Street and Canning Street,-37.79937981738187,144.97381013021266,43
+20619,Kay Street between Station Street and Canning Street,-37.79527981054217,144.9738826421131,29
+20621,Kay Street between Nicholson Street and Station Street,-37.79538365786378,144.97482074669747,30
+20629,Neill Street between Princes Street and Canning Street,-37.79330056973195,144.97410025527486,12
+20634,Princes Street between Canning Street and Rathdowne Street,-37.792815789544015,144.97264312596775,22
+20639,Rathdowne Street between Neill Street and Princes Street,-37.793706396001774,144.97116278355423,46
+20640,Drummond Street between Palmerston Street and Princes Street,-37.79323924203966,144.9698364380456,24
+20651,Pitt Street between Canning Street and Rathdowne Street,-37.79572843971467,144.9718753608134,37
+20654,Elgin Street between Canning Street and Rathdowne Street,-37.79762451023071,144.9718009939466,39
+20673,Faraday Street between Canning Street and Rathdowne Street,-37.79910472850499,144.9713993752455,49
+20677,Barkly Street between Canning Street and Rathdowne Street,-37.80000862491735,144.97131678234408,90
+20685,Palmerston Street between Drummond Street and Lygon Street,-37.79608774664958,144.96858465674998,50
+20710,Faraday Street between Rathdowne Street and Drummond Street,-37.79892912973449,144.9695109361401,47
+20758,Dorrit Street between Grattan Street and Faraday Street,-37.79957713435213,144.96637383117837,54
+20779,Palmerston Street between Nicholson Street and Canning Street,-37.796621069829776,144.97362001542552,29
+20780,Palmerston Street between Canning Street and Rathdowne Street,-37.796437468479,144.97193812963852,81
+20813,Faraday Street between Lygon Street and Cardigan Street,-37.79858380177039,144.96656568358048,37
+20815,Elgin Street between Cardigan Street and Swanston Street,-37.79693773892514,144.96547063242457,14
+20817,Elgin Street between Rathdowne Street and Drummond Street,-37.79739436040608,144.96970148070517,22
+20877,Station Street between Kay Street and Princes Street,-37.79419552553599,144.97452499319618,89
+20882,Nicholson Street between Palmerston Street and Kay Street,-37.79618992241123,144.9750620189178,17
+20884,Nicholson Street between Kay Street and Princes Street,-37.794418437295235,144.9753633515113,23
+20889,Albert Street between Nicholson Street and Gisborne Street,-37.8094432186602,144.97426792103354,37
+20935,Princess Street between Peel Street and Cobden Street,-37.80501877374777,144.95684933723635,19
+20973,Queensberry Street between Howard Street and Chetwynd Street,-37.803465456866675,144.9533434420598,42
+20974,Queensberry Street between Chetwynd Street and Leveson Street,-37.803328323562425,144.95184689158373,34
+20979,Victoria Street between Chetwynd Street and Leveson Street,-37.80537324396177,144.95146803574798,17
+20996,Curzon Street between Victoria Street and Elm Street,-37.80444103274525,144.94796483445378,11
+20999,Queensberry Street between Errol Street and Curzon Street,-37.802985929984665,144.94889502742672,16
+21007,Victoria Street between Curzon Street and Abbotsford Street,-37.80478930754238,144.94649392786056,29
+21015,Queensberry Street between Curzon Street and Abbotsford Street,-37.802681579654745,144.94664913112274,35
+21026,Dryburgh Street between Victoria Street and Queensberry Street,-37.80341306160853,144.94337502581777,43
+21035,Queensberry Street between Lothian Street and Dryburgh Street,-37.80244582264328,144.94413580488856,25
+21041,Munster Terrace between Victoria Street and Queensberry Street,-37.80327937556132,144.94228318452372,56
+21042,Queensberry Street between Munster Terrace and Laurens Street,-37.80220064555099,144.94202898659276,25
+21043,Munster Terrace between Queensberry Street and Arden Street,-37.80136638249103,144.94286939305377,22
+21044,Dryburgh Street between Queensberry Street and Arden Street,-37.80142422345649,144.94379072059192,37
+21052,Arden Street between Munster Terrace and Laurens Street,-37.800168163881224,144.9426884292071,20
+21058,Little Lothian Street North from Lothian Street,-37.80144081720766,144.94514014809005,14
+21061,Arden Street between Curzon Street and Abbotsford Street,-37.80064330010788,144.9471888676044,75
+21063,Baillie Street between Curzon Street and Abbotsford Street,-37.80143114706948,144.9473258388652,40
+21071,Provost Street between Curzon Street and Abbotsford Street,-37.80203323527612,144.94701974531816,19
+21085,Arden Street between Leveson Street and Errol Street,-37.80097708065691,144.95073198399206,22
+21097,Arden Street between Chetwynd Street and Leveson Street,-37.801209737337615,144.95208332972032,19
+21105,Howard Street between Queensberry Street and Courtney Street,-37.802896522204826,144.95415118515962,29
+21107,Courtney Street between Blackwood Street and Wreckyn Street,-37.801533465592875,144.95342059560224,16
+21117,Peel Street between Queensberry Street and Elizabeth Street,-37.802476275330534,144.95652090476324,18
+21147,Molesworth Street between Haines Street and Harker Street,-37.798524150933,144.94932671086613,9
+21166,Haines Street between Abbotsford Street and Dryburgh Street,-37.79835125644905,144.9452884318932,42
+21168,Haines Street between Curzon Street and Abbotsford Street,-37.79857944862106,144.94751538498485,63
+21192,Molesworth Street between Harker Street and Abbotsford Street,-37.79730250361373,144.9477821176118,71
+21229,Carroll Street between Canning Street and Erskine Street,-37.795602876512916,144.94579218434995,45
+21237,Brougham Street between Abbotsford Street and Dryburgh Street,-37.79377227109537,144.9457952035115,20
+21247,Curran Street between Dryburgh Street and Melrose Street,-37.79237569532466,144.94366059644292,20
+21261,Eastwood Street between Hardiman Street and MacAulay Road,-37.79495169582516,144.93117776427,13
+21270,Hardiman Street between Bent Street and Albermarle Street,-37.79573179427161,144.93432246021646,24
+21278,Albermarle Street between Chelmsford Street and Hardiman Street,-37.796112775020426,144.93320565183413,23
+21293,Henderson Street between Fogarty Street and Gracie Street,-37.79776025347558,144.93947305322638,22
+21299,Arden Street between Laurens Street and Fogarty Street,-37.79995734258266,144.94085129619688,37
+21300,Barwise Street from Laurens Street,-37.80072517181364,144.94084359342315,43
+21301,Arden Street between Fogarty Street and Langford Street,-37.79973212288116,144.93853344209649,42
+21320,Macaulay Road between Boundary Road and Langford Street,-37.7953608016741,144.9377440384427,20
+21327,MacAulay Road between Fogarty Street and Gracie Street,-37.796981440668276,144.94061157639524,23
+21329,MacAulay Road between Haines Street and Fogarty Street,-37.79827480627245,144.94206218135756,27
+21330,Anderson Street between Miller Street and Victoria Street,-37.804783747259776,144.94201564166914,17
+21348,Miller Street between Curzon Street and Abbotsford Street,-37.805776885777256,144.94628417194804,18
+21380,Stanley Street between Chetwynd Street and King Street,-37.8066530676319,144.9516468317004,13
+21433,Roden Street between Spencer Street and King Street,-37.807154471541104,144.94871006230284,48
+21441,Dryburgh Street between Ireland Street and Spencer Street,-37.806083409794546,144.9429524070583,17
+21447,Adderley Street between Abbotsford Street and Dryburgh Street,-37.807573579466634,144.94322684309273,12
+21450,Adderley Street between Hawke Street and Abbotsford Street,-37.808181136431145,144.94455972564015,34
+21452,Abbotsford Street between Adderley Street and Ireland Street,-37.80743309559634,144.94390573912847,17
+21459,Abbotsford Street between Ireland Street and Spencer Street,-37.80671413566236,144.944489414989,38
+21461,Hawke Street between Ireland Street and Spencer Street,-37.80762865260483,144.94634260862108,23
+21464,Roden Street between Adderley Street and Spencer Street,-37.80835772810693,144.9470225259203,35
+21469,Roden Street between Railway Place and Adderley Street,-37.80953335880559,144.94547971975976,34
+21470,Hawke Street between Railway Place and Adderley Street,-37.809234545296704,144.94465642625016,16
+21473,Stanley Street between Railway Place and Adderley Street,-37.8101574879178,144.94592776090153,42
+21567,Morrison Place between Victoria Parade and Albert Street,-37.80910801314757,144.9766523318715,20
+21587,Albert Street between Powlett Street and Clarendon Street,-37.81052595622432,144.98473168332274,28
+21588,Clarendon Street between Albert Street and Victoria Parade,-37.80983122301575,144.9836419461148,22
+21685,Sims Street between Dynon Road and Footscray Road,-37.80326397609216,144.9094809791779,53
+21686,Kensington Road between MacAulay Road and Derby Street,-37.79462666089672,144.92689787844247,18
+21699,Bellair Street between MacAulay Road and Wolseley Parade,-37.795067485468216,144.9306439237914,17
+21714,Tennyson Street between Bellair Street and Southey Street,-37.79749050551344,144.9309064955053,18
+21715,Tennyson Street between Southey Street and Arden Street,-37.79801570873679,144.92999867776786,23
+21739,Altona Street between Ormond Street and Kensington Road,-37.79645791825863,144.92493800366395,22
+21741,Childers Street between Ormond Street and Kensington Road,-37.79895934225417,144.92316978855177,124
+21749,Kensington Road between Derby Street and Altona Street,-37.79555642045202,144.92533387880525,23
+21771,Woodruff Street between Westbourne Road and Coopers Lane,-37.79156765958324,144.92287897990613,9
+21782,Neale Street from Westbourne Road,-37.79292296975761,144.92082089335958,7
+21788,Matthews Mews from Flockhart Street,-37.794531927560975,144.92056853387965,10
+21789,The Crescent between Mercantile Parade and Gatehouse Drive,-37.794777516456634,144.91965800631766,15
+21793,Musgrove Mews between Stockmans Way and Halford Lane,-37.7918210640623,144.92027277228644,8
+21797,Sims Square between Howlett Street and Gregory Lane,-37.79082286167335,144.9216464316552,24
+21810,McAllister Mews between Stockmans Way and Gatehouse Drive,-37.792837087086625,144.9201256949994,10
+21812,Willis Street between Stockmans Way and The Crescent,-37.793413695993216,144.91842880197285,33
+21839,Lincoln Mews between Kensington Road and Devon Street,-37.79654708260191,144.92267437503074,9
+21842,Hobsons Road between Kensington Road and Stock Bridge,-37.79778457416475,144.91955122437008,23
+21844,Kensington Road between Altona Street and Mercantile Parade,-37.79677962432577,144.92307732956542,54
+21845,Kensington Road between Mercantile Parade and Hobsons Road,-37.79784233641871,144.92134873456888,23
+21860,Clarendon Street between Grey Street and Albert Street,-37.81101666962198,144.98343506368442,24
+21863,Powlett Street between Grey Street and Albert Street,-37.81130079726706,144.98617020502212,15
+21864,Grey Street between Powlett Street and Clarendon Street,-37.81170581381619,144.9843036637448,40
+21875,Darling Street between Grey Street and Gipps Street,-37.81289463585325,144.98969865786646,26
+21890,Gipps Street between Powlett Street and Clarendon Street,-37.81287245213822,144.98439377751592,31
+21902,Clarendon Street between Hotham Street and Gipps Street,-37.81324786216708,144.9830566787128,31
+21905,Hotham Street between Simpson Street and Powlett Street,-37.81429898917525,144.98730256769977,14
+21910,Hotham Street between Hoddle Street and Simpson Street,-37.81456794246356,144.9894094272863,44
+21919,George Street between Hoddle Street and Simpson Street,-37.81571259201048,144.98915752060174,63
+21925,George Street between Simpson Street and Powlett Street,-37.815443817973005,144.98668888951082,37
+21931,George Street between Powlett Street and Clarendon Street,-37.815114365985494,144.98402764679318,56
+21932,Clarendon Street between George Street and Hotham Street,-37.81441329419098,144.98284037345456,29
+21937,Clarendon Street between Wellington Parade and George Street,-37.8154524157927,144.9826752534988,28
+21972,Jolimont Road between Brunton Avenue and Wellington Parade South,-37.81747990926213,144.97883408919319,27
+22043,Kings Way between Kavanagh Street and City Road,-37.826208734055065,144.96096384841215,13
+22118,Sturt Street between Miles Street and Coventry Street,-37.82920322858738,144.96563267710235,35
+22121,Sturt Street between Southbank Boulevard and Grant Street,-37.82502287043283,144.96688843443664,36
+22124,Hartley Street between Lorimer Street and Westgate Freeway,-37.82441653419695,144.94025673433254,32
+22126,Lorimer Street between Westgate Freeway and Hartley Street,-37.82470407209681,144.94361670974757,70
+22127,Lorimer Street between Hartley Street and Boundary Street,-37.82330872097963,144.93904346211934,18
+22131,Lorimer Street between Boundary Street and Ingles Street,-37.82270810679297,144.93575994504513,31
+22144,Hall Street between Lorimer Street and Turner Street,-37.822309763834845,144.92674898963892,53
+22147,Douglas Street between Turner Street and Cook Street,-37.82534232020898,144.92450323555815,73
+22148,Turner Street between Salmon Street and Douglas Street,-37.823861791791785,144.9229400760636,50
+22149,Salmon Street between Cook Street and Turner Street,-37.826141257112944,144.92226430838798,26
+22150,Vegemite Way between Salmon Street and Douglas Street,-37.827525259424014,144.9239081139497,35
+22159,Salmon Street between Turner Street and Lorimer Street,-37.82294662621469,144.92126696889488,47
+22165,Todd Road between Cook Street and Wharf Road,-37.829741352675605,144.91181490418475,29
+22168,Lorimer Street between West Gate Bridge and Todd Road,-37.82623764242129,144.90440447477528,295
+22233,Domain Road between Marne Street and Walsh Street,-37.83448306302783,144.98485822728813,7
+22240,Mona Place from Punt Road,-37.83705093844902,144.98612305277538,12
+22241,Marne Street between Toorak Road and Domain Road,-37.83591561147939,144.9840542677832,23
+22242,Leopold Street between Toorak Road and Domain Road,-37.835958016133965,144.98299970177203,83
+22258,Millswyn Street between Domain Road and St Martins Lane,-37.834726334866794,144.98056965686482,19
+22261,Hope Street between Toorak Road and Domain Road,-37.836653063572655,144.97920046921607,23
+22262,Domain Street between Toorak Road and Bromby Street,-37.836250764720596,144.97838051807705,60
+22263,Domain Street between Bromby Street and Domain Road,-37.834528649831626,144.9787515833057,40
+22278,Alexandra Avenue between Anderson Street and Walsh Street,-37.82885437468375,144.9861033137577,16
+22301,Park Place from Punt Road,-37.83987110208204,144.98552277016532,15
+22322,Story Street between Benjamin Street and Fitzgibbon Street,-37.796966103896715,144.95605639447962,13
+22323,Morrah Street between Royal Parade and Fitzgibbon Street,-37.79572559010462,144.9572916177329,17
+22330,Fitzgibbon Street between Story Street and Morrah Street,-37.796359620493284,144.9567101985972,36
+22334,Park Drive between Story Street and Morrah Street,-37.79591945855026,144.9541444526195,17
+22336,Benjamin Street between Story Street and Morrah Street,-37.79619403475412,144.95545080264617,39
+22341,Morrah Street between Park Drive and Gatehouse Street,-37.79497541467955,144.95415007937055,14
+22342,Gatehouse Street between Morrah Street and Bayles Street,-37.79406022855435,144.95433278654437,25
+22348,Wimble Street between Morrah Street and Park Drive,-37.79499398071601,144.95585509183562,35
+22356,Fitzgibbon Street between Morrah Street and Bayles Street,-37.794998317182085,144.95688443401522,44
+22357,Fitzgibbon Street between Bayles Street and Degraves Street,-37.7940210610208,144.95700755316125,25
+22360,Degraves Street between Royal Parade and Fitzgibbon Street,-37.793664212718205,144.95754938302292,28
+22363,Royal Parade between Bayles Street and Morrah Street,-37.79501433245096,144.9581247025052,27
+22369,Gatehouse Street between Bayles Street and Park Drive,-37.7930496460388,144.95576079331227,25
+22373,College Crescent between Swanston Street and Princes Park Drive,-37.79196783616551,144.96251517175006,25
+22387,Royal Parade between Ievers Street and Walker Street,-37.78328143852056,144.95973950591198,45
+22393,Royal Parade between Ievers Street and Park Street,-37.7802553957177,144.9597330903705,46
+22397,Park Street between West Coburg Tramway and Royal Parade,-37.77747896323129,144.95479242189987,128
+22398,Park Street between Oak Street and West Coburg Tramway,-37.77650931337269,144.94705526988682,65
+22403,Oak Street between Poplar Road and Manningham Street,-37.78156817549395,144.9419079517399,22
+22408,Southgate Street between Flemington Road and Manningham Street,-37.78880890891809,144.94292259109562,21
+22413,Manningham Street between Southgate Street and Church Street,-37.78806086184327,144.94274763741257,27
+22415,Manningham Street between Oak Street and Heathcote Road,-37.785240478438,144.941674341417,22
+22434,Royal Parade between MacArthur Road and Leonard Street,-37.78840642807089,144.9590782618439,26
+22435,Royal Parade between Leonard Street and Walker Street,-37.78676132721174,144.95922873363634,54
+22438,Royal Parade between Gatehouse Street and MacArthur Road,-37.79116424721534,144.95880685775822,25
+22452,Harbour Esplanade between Bourke Street and La Trobe Street,-37.81660737350478,144.94567861720384,32
+22455,Clarendon Street between Whiteman Street and Haig Street,-37.82611301916198,144.95738116377865,9
+22473,Slater Street from St Kilda Road,-37.83885097161855,144.97751289145629,32
+22475,Armadale Street from St Kilda Road,-37.841141865109364,144.97832251722627,34
+22480,Punt Road between High Street and Moubray Street,-37.84942249861774,144.98433798774985,14
+22481,Punt Road between Moubray Street and Commercial Road,-37.847491095744594,144.98464979202492,19
+22507,Faraday Street between Drummond Street and Lygon Street,-37.798772362765426,144.96808938755427,34
+22514,Royal Parade between Grattan Street and Story Street,-37.79827486572439,144.95766503067716,40
+22520,Bent Street between Chelmsford Street and Hardiman Street,-37.79627624398697,144.93519545934458,28
+22592,Story Street between Park Drive and Benjamin Street,-37.796789923743304,144.9545758360074,21
+22602,Palmerston Street between Nicholson Street and Station Street,-37.79671361787335,144.97459302163173,19
+22607,Royal Parade between Gatehouse Street and Degraves Street,-37.7933038093244,144.95822751008774,15
+22608,Royal Parade between Morrah Street and Story Street,-37.79648721325978,144.95793826201603,32
+22622,Clarendon Street between Gipps Street and Grey Street,-37.81221864626194,144.9831643346498,19
+22665,Hawke Street between Ireland Street and Adderley Street,-37.80818569376873,144.94576774615157,11
+22696,Linlithgow Avenue between St Kilda Road and Alexandra Avenue,-37.82225829180666,144.97268608871198,25
+22706,Birdwood Avenue between Dallas Brooks Drive and Domain Road,-37.832874062040325,144.97960389304507,155
+22740,Millswyn Street between Toorak Road and St Martins Lane,-37.836097420126315,144.98023128943927,14
+22788,Neill Street between Rathdowne Street and Canning Street,-37.79406797430204,144.97231085116834,55
+22840,Fisken Place between Newton Street and Fisken Walk,-37.79544175010897,144.92403641137636,7
+22845,Speakmen Street between Stockmans Way and Smithfield Road,-37.79425137824855,144.91615918983035,43
+22852,Rourke Lane between Stockmans Way and Smithfield Road,-37.793505448343815,144.91685020948813,10
+22886,Henry Street between Derby Street and Altona Street,-37.795883895012864,144.92614721807587,15
+22932,Cade Way between Garrard Street and Garrard Street,-37.777609908077,144.93937092571673,32
+23236,Navigation Drive between Collins Street and Harbour Esplanade,-37.82229733538553,144.9468021108972,5
+23254,Docklands Drive between Waterfront Way and Pearl River Road,-37.81444580122122,144.93868732130068,15
+23256,Docklands Drive between Pearl River Road and Docklands Drive,-37.81532676117661,144.93647345613735,28
+23277,Leven Avenue between Pearl River Road and Wattle Road,-37.81559763007057,144.93740366639508,5
+23291,Mills Place between Lorimer Street and South Wharf Drive,-37.823285964387445,144.93998004001037,12

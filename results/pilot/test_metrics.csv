@@ -1,0 +1,25 @@
+horizon_min,model,features,brier,brier_busy,ece,auc,ece_before_calibration
+5,Persistence (free now stays free),-,0.0123,0.1568,0.0123,0.882,
+5,Historical rate (block x hour),-,0.0261,0.3938,0.0194,0.6929,
+5,Logistic Regression,A,0.0256,0.3652,0.0131,0.8302,0.0176
+5,Random Forest,A,0.0253,0.3569,0.0123,0.8001,0.021
+5,XGBoost,A,0.0257,0.3542,0.0197,0.7966,0.0225
+5,Logistic Regression,B,0.0105,0.1229,0.0018,0.9855,0.006
+5,Random Forest,B,0.0104,0.1219,0.0017,0.9845,0.0058
+5,XGBoost,B,0.0186,0.2347,0.0121,0.941,0.0141
+10,Persistence (free now stays free),-,0.017,0.2116,0.017,0.8359,
+10,Historical rate (block x hour),-,0.0262,0.3563,0.0199,0.6964,
+10,Logistic Regression,A,0.0256,0.3298,0.0122,0.8322,0.0171
+10,Random Forest,A,0.0254,0.325,0.0126,0.8132,0.0212
+10,XGBoost,A,0.0256,0.3217,0.0192,0.8003,0.0231
+10,Logistic Regression,B,0.0145,0.153,0.0024,0.9766,0.0079
+10,Random Forest,B,0.0138,0.1494,0.003,0.9742,0.0086
+10,XGBoost,B,0.0205,0.2477,0.0143,0.9132,0.0154
+15,Persistence (free now stays free),-,0.0205,0.2529,0.0205,0.8008,
+15,Historical rate (block x hour),-,0.0263,0.3298,0.0197,0.6999,
+15,Logistic Regression,A,0.0256,0.3076,0.0121,0.8303,0.0169
+15,Random Forest,A,0.0252,0.3005,0.013,0.7952,0.0217
+15,XGBoost,A,0.0258,0.2959,0.0189,0.7953,0.0226
+15,Logistic Regression,B,0.0169,0.1686,0.0043,0.9687,0.0087
+15,Random Forest,B,0.0167,0.1677,0.0046,0.9625,0.0083
+15,XGBoost,B,0.022,0.2492,0.0157,0.892,0.0156

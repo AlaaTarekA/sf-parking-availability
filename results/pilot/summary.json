@@ -1,0 +1,46 @@
+{
+  "rows_5min": {
+    "train": 134976,
+    "calibration": 33480,
+    "test": 33440
+  },
+  "rows_10min": {
+    "train": 134088,
+    "calibration": 33258,
+    "test": 33220
+  },
+  "rows_15min": {
+    "train": 133200,
+    "calibration": 33036,
+    "test": 33000
+  },
+  "blocks": 222,
+  "decision_step_min": 5,
+  "random_forest_vs_persistence": {
+    "5min": {
+      "rf_brier": 0.0104,
+      "persistence_brier": 0.0123,
+      "rf_brier_reduction_vs_persistence": 0.154,
+      "rf_brier_reduction_busy": 0.223,
+      "rf_ece_before": 0.0058,
+      "rf_ece_after": 0.0017
+    },
+    "10min": {
+      "rf_brier": 0.0138,
+      "persistence_brier": 0.017,
+      "rf_brier_reduction_vs_persistence": 0.188,
+      "rf_brier_reduction_busy": 0.294,
+      "rf_ece_before": 0.0086,
+      "rf_ece_after": 0.003
+    },
+    "15min": {
+      "rf_brier": 0.0167,
+      "persistence_brier": 0.0205,
+      "rf_brier_reduction_vs_persistence": 0.185,
+      "rf_brier_reduction_busy": 0.337,
+      "rf_ece_before": 0.0083,
+      "rf_ece_after": 0.0046
+    }
+  },
+  "runtime_seconds": 62.2
+}
