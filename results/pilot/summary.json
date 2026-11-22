@@ -9,6 +9,21 @@
     "calibration": 33258,
     "test": 33220
   },
+  "confusion_matrix_rf_B_10min": {
+    "rows_true_cols_pred": "[[full->full, full->free], [free->full, free->free]]",
+    "matrix": [
+      [
+        584,
+        317
+      ],
+      [
+        266,
+        32053
+      ]
+    ],
+    "test_share_with_free_bay": 0.9729,
+    "test_share_with_free_bay_busy": 0.5717
+  },
   "rows_15min": {
     "train": 133200,
     "calibration": 33036,
@@ -42,5 +57,5 @@
       "rf_ece_after": 0.0046
     }
   },
-  "runtime_seconds": 62.2
+  "runtime_seconds": 70.4
 }

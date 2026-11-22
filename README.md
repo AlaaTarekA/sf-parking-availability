@@ -88,7 +88,9 @@ Because San Francisco's payment data had not been processed yet, the full method
 | Random Forest | A | 0.0254 | 0.325 | 0.0126 | 0.813 |
 | Historical rate (block × hour) | – | 0.0262 | 0.356 | 0.0199 | 0.696 |
 
-All horizons: `results/pilot/test_metrics.csv`.
+All horizons and more metrics (log loss, accuracy, balanced accuracy, MCC, and precision, recall, F1 and average precision for the "full on arrival" class): `results/pilot/test_metrics.csv`.
+
+**Class imbalance matters.** 97.3% of test block-minutes still have a free bay 10 minutes later, so accuracy is high for every model (98.3% for persistence). For the rare "full on arrival" case at a 0.5 threshold, Random Forest (F1 0.667, MCC 0.658) is close to persistence (F1 0.685, MCC 0.676). Its advantage is in probability quality: lower Brier score and log loss (0.051 vs 0.235), higher ROC AUC (0.974 vs 0.836) and average precision for full blocks (0.617 vs 0.478). That is what the recommendation uses.
 
 - **Live state is the key signal, and the model improves on it.** Random Forest with current-state features cut the Brier score by 15–19% against "free now stays free", and by 22–34% on busy blocks, across 5, 10 and 15 minutes.
 - **Calibration helps.** Isotonic calibration lowered Random Forest's calibration error from 0.0086 to 0.0030 (10 minutes), so its probabilities can feed a recommendation.

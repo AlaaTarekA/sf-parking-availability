@@ -27,7 +27,9 @@ from sklearn.calibration import CalibratedClassifierCV
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.frozen import FrozenEstimator
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import brier_score_loss, roc_auc_score
+from sklearn.metrics import (accuracy_score, average_precision_score, balanced_accuracy_score,
+                             brier_score_loss, confusion_matrix, f1_score, log_loss,
+                             matthews_corrcoef, precision_score, recall_score, roc_auc_score)
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from xgboost import XGBClassifier
@@ -134,10 +136,23 @@ def ece(y: np.ndarray, p: np.ndarray, bins: int = 10) -> float:
 
 
 def scores(y, p, busy):
+    """Probability metrics, plus threshold metrics at p = 0.5.
+
+    The rare, costly outcome is a block that is FULL on arrival (y = 0), so precision,
+    recall, F1 and average precision are reported for that class.
+    """
+    pred = (p >= 0.5).astype(int)
+    full, p_full, pred_full = 1 - y, 1 - p, 1 - pred
     out = {"brier": brier_score_loss(y, p), "brier_busy": brier_score_loss(y[busy], p[busy]),
-           "ece": ece(y, p)}
+           "ece": ece(y, p), "log_loss": log_loss(y, np.clip(p, 1e-6, 1 - 1e-6), labels=[0, 1]),
+           "accuracy": accuracy_score(y, pred), "balanced_accuracy": balanced_accuracy_score(y, pred),
+           "mcc": matthews_corrcoef(y, pred),
+           "precision_full": precision_score(full, pred_full, zero_division=0),
+           "recall_full": recall_score(full, pred_full, zero_division=0),
+           "f1_full": f1_score(full, pred_full, zero_division=0)}
     if len(np.unique(y)) > 1 and len(np.unique(p)) > 1:
         out["auc"] = roc_auc_score(y, p)
+        out["avg_precision_full"] = average_precision_score(full, p_full)
     return {k: round(float(v), 4) for k, v in out.items()}
 
 
@@ -273,6 +288,11 @@ def main() -> None:
             y = test["y"].to_numpy()
             cal_curve = {"Before calibration": calibration_points(y, raw),
                          "After isotonic calibration": calibration_points(y, p)}
+            cm = confusion_matrix(y, (p >= 0.5).astype(int), labels=[0, 1])
+            summary["confusion_matrix_rf_B_10min"] = {
+                "rows_true_cols_pred": "[[full->full, full->free], [free->full, free->free]]",
+                "matrix": cm.tolist(), "test_share_with_free_bay": round(float(y.mean()), 4),
+                "test_share_with_free_bay_busy": round(float(y[test["occ_now"].to_numpy() >= BUSY].mean()), 4)}
             rep = replay(test, p, test["free_future"], dist, rng)
             rep.to_csv(OUT / "replay_10min.csv", index=False)
     metrics = pd.concat(all_metrics, ignore_index=True)
