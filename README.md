@@ -33,6 +33,7 @@ python -m unittest discover -s tests -v
 
 # Pilot: retrain and replay from the included block-minute data (~1 minute)
 python src/pilot_train.py
+python src/pilot_analysis.py   # extra analysis for the report (~30 seconds)
 
 # SF supply layer: download the inventory (needs access to data.sfgov.org), then build
 python src/download_sf_inventory.py
@@ -132,6 +133,7 @@ The recommendation's value depends on how costly a failed block is: a low cost k
 | `src/sf_supply.py` | SF supply layer: cleaning, cap-color use, block supply, choice sets, figures |
 | `src/pilot_prepare.py` | Melbourne sensor snapshots → block-minute occupancy |
 | `src/pilot_train.py` | Pilot models, calibration, metrics, replay, figures |
+| `src/pilot_analysis.py` | Extra analysis: data overview, feature importance, error by occupancy, precision-recall, replay radius |
 | `data/processed/` | Pilot block-minute occupancy and block locations (derived from public data) |
 | `results/` | Metrics, replay results and figures |
 | `tests/` | Checks for supply counts, choice sets, no future leakage, day split |

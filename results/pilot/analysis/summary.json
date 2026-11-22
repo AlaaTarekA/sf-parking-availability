@@ -1,0 +1,43 @@
+{
+  "data_overview": {
+    "blocks": 222,
+    "mean_occupancy": 0.491,
+    "block_mean_occupancy_quartiles": [
+      0.44,
+      0.492,
+      0.54
+    ],
+    "blocks_over_85pct_on_average": 0,
+    "share_block_minutes_full": 0.024
+  },
+  "average_precision_full": {
+    "Random Forest": 0.6172,
+    "Logistic Regression": 0.5884
+  },
+  "persistence_point": {
+    "precision": 0.6895,
+    "recall": 0.6804
+  },
+  "top_features": [
+    {
+      "feature": "occ_now",
+      "brier_increase": 0.001931
+    },
+    {
+      "feature": "free_now",
+      "brier_increase": 0.001615
+    },
+    {
+      "feature": "any_free_now",
+      "brier_increase": 0.001276
+    },
+    {
+      "feature": "min_free_15",
+      "brier_increase": 0.000146
+    },
+    {
+      "feature": "hour",
+      "brier_increase": 0.000129
+    }
+  ]
+}

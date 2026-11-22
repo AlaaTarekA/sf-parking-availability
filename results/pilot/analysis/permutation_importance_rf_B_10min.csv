@@ -1,0 +1,14 @@
+feature,brier_increase,std
+occ_now,0.001931,0.000134
+free_now,0.001615,0.00011
+any_free_now,0.001276,9.7e-05
+min_free_15,0.000146,5.2e-05
+hour,0.000129,5.2e-05
+mean_free_15,0.00012,1.8e-05
+free_lag15,6e-05,2.5e-05
+bays,4.4e-05,4.2e-05
+weekday,-0.0,0.0
+is_weekend,-0.0,0.0
+delta5,-2.5e-05,4.3e-05
+free_lag5,-4.5e-05,1.8e-05
+hist_rate,-0.000412,0.000105

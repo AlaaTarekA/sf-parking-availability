@@ -1,0 +1,11 @@
+strategy,first_try_success,avg_walk_m,radius_m
+Nearest block (destination),0.567,0.0,200
+Model recommendation (fail cost 3 min),0.804,40.0,200
+Nearest block free now,0.834,47.2,200
+Model recommendation (fail cost 6 min),0.839,48.6,200
+Model recommendation (fail cost 10 min),0.845,50.7,200
+Nearest block (destination),0.567,0.0,400
+Model recommendation (fail cost 3 min),0.804,40.0,400
+Nearest block free now,0.898,67.7,400
+Model recommendation (fail cost 6 min),0.899,66.3,400
+Model recommendation (fail cost 10 min),0.911,71.3,400
